@@ -1,0 +1,19 @@
+{
+    "name": "marcador/consulta",
+    "description": "Marcador de consultar - Projeto teste para treinar arquitetura limpa",
+    "authors": [
+        {
+            "name": "Paulo Gonçalo Garcia João",
+            "email": "pauloggjoao@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Application\\": "Application/",
+            "Domain\\": "Domain/",
+            "Infrastructure\\": "Infrastructure/"
+        }
+    },
+    "require": {
+    }
+}
