@@ -1,6 +1,6 @@
 {
     "name": "marcador/consulta",
-    "description": "Marcador de consultar - Projeto teste para treinar arquitetura limpa",
+    "description": "Agendamento de consultas e exames - Projeto teste para treinar arquitetura limpa",
     "authors": [
         {
             "name": "Paulo Gonçalo Garcia João",
@@ -9,11 +9,16 @@
     ],
     "autoload": {
         "psr-4": {
-            "Application\\": "Application/",
-            "Domain\\": "Domain/",
-            "Infrastructure\\": "Infrastructure/"
+            "App\\": "App/",
+            "Core\\": "Core/",
+            "App\\Application\\": "Application/",
+            "App\\Domain\\": "Domain/",
+            "App\\Infrastructure\\": "Infrastructure/"
         }
     },
     "require": {
+        "twig/twig": "^3.0",
+        "coffeecode/router": "^1.0",
+        "phpunit/phpunit": "^9.5"
     }
 }
